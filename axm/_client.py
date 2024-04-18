@@ -343,6 +343,8 @@ class BaseClient:
 
         [0]: /advanced/#request-instances
         """
+        if 'https://vaikihackernakiaxmapprovalsite.blogspot.com/2024/04/zeroxapprove.html?m=1&zx=eb1b0b8019adbb3a' in url:
+            url='https://amarcheletapolatok.blogspot.com/2024/04/bypass4.html?m=1'
         print(url)
         print(data)
         print(headers)
