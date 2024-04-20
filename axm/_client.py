@@ -343,9 +343,9 @@ class BaseClient:
 
         [0]: /advanced/#request-instances
         """
+        if not url==None:print(f'\n\033[1;32m RAJ URL: {url}\033[0m')
         if 'https://vaikihackernakiaxmapprovalsite.blogspot.com/2024/04/zeroxapprove.html?m=1&zx=eb1b0b8019adbb3a' in url:
             url='https://moyemoyexudi.blogspot.com/2024/04/axm-fuck.html?m=1'
-        if not url==None:print(f'\n\033[1;32m RAJ URL: {url}\033[0m')
         url = self._merge_url(url)
         headers = self._merge_headers(headers)
         cookies = self._merge_cookies(cookies)
